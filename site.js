@@ -4,6 +4,8 @@ const isMorning = hours >= 4 && hours < 12 // is it morning?
 const isAfternoon = hours >= 12 && hours < 17 // is it afternoon?
 const isEvening = hours >= 17 || hours < 4 // is it evening?
 
+const key = "It's a secret to everybody."
+
 // greetings object
 const greetings = {
     morning: 'Good Morning!',
@@ -17,3 +19,5 @@ const timedWelcome = greetings[timeOfDay]
 
 //find "welcome" class and set welcome message
 document.querySelector('.welcome').innerHTML = `<span>${timedWelcome}</span`
+
+localStorage.setItem(key,'I AM ERROR')

@@ -1,0 +1,5 @@
+# Ignore these folders
+/secrets
+
+# Ignore this file
+SecretToEveryone.txt
